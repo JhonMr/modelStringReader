@@ -1,0 +1,17 @@
+{
+  "name": "ast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test-inspect": "node --inspect-brk=9229 app ./code/code.js",
+    "test": "node app ./code/code.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "estraverse": "^4.3.0",
+    "fs": "0.0.1-security"
+  }
+}
